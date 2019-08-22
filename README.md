@@ -29,7 +29,7 @@ Image reconstruction and classification
 Taking MNIST_Handwritten_data.mat data set as an example, run F3RBM-SVM.m to get the comparison between the original image and the reconstructed image (odd behavior original image, even behavior reconstructed image) as follows
 <div align=center><img src="https://github.com/shhdl/F3RBM-SVM/blob/master/Comparison%20of%20original%20and%20reconstructed%20images.png"/></div><br>
 The classification accuracy is 98.30%±0.05%.<br>
-<div align=center><img src="https://github.com/shhdl/F3RBM-SVM/blob/master/View%20of%20classification%20accuracy.png"/></div>
+<div align=center><img width="281" height="129" src="https://github.com/shhdl/F3RBM-SVM/blob/master/View%20of%20classification%20accuracy.png"/></div><br>
 How to verify the effectiveness of feature extraction
 ----
   Reconstruction errors are used to reflect the effectiveness of feature extraction. During the training iteration, reconstruction errors in each iteration are displayed in the workspace. It can not only reflect the convergence performance of training, but also verify the effectiveness of feature extraction.<br>
