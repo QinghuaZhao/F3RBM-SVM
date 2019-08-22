@@ -29,7 +29,7 @@ Image reconstruction and classification
 Taking MNIST_Handwritten_data.mat data set as an example, run F3RBM-SVM.m to get the comparison between the original image and the reconstructed image (odd behavior original image, even behavior reconstructed image) as follows:<br>
 
 The classification accuracy is 98.30%±0.05%.<br>
- 
+
 How to verify the effectiveness of feature extraction
 ----
   Reconstruction errors are used to reflect the effectiveness of feature extraction. During the training iteration, reconstruction errors in each iteration are displayed in the workspace. It can not only reflect the convergence performance of training, but also verify the effectiveness of feature extraction.<br>
@@ -37,11 +37,13 @@ How to verify the effectiveness of feature extraction
 How to test the classification effect
 ----
 The training samples and test samples are data sets after F3RBM feature extraction. That is to say, the sample data after feature extraction can be obtained by the optimized parameters and the corresponding conditional probability function.<br>
+
 How to improve the classification accuracy of F3RBM-SVM 
 -----
 * Set more iterations until the reconstruction error converges.<br> 
 * Set more hidden units until the number of hidden units approaches the number of visible units.<br>
 * When the number of original data samples is relatively small and the dimension of samples is relatively low, improving the threshold of removing redundancy can improve the accuracy of classification.<br>
+
 How to improve the learning speed
 ---
 * Increase the learning rate appropriately, Increase learning rate appropriately, but it is easy to cause non-convergence.<br>
