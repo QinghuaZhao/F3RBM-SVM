@@ -34,7 +34,8 @@ The classification accuracy is 98.30%±0.05%.<br>
 How to verify the effectiveness of feature extraction
 ----
   Reconstruction errors are used to reflect the effectiveness of feature extraction. During the training iteration, reconstruction errors in each iteration are displayed in the workspace. It can not only reflect the convergence performance of training, but also verify the effectiveness of feature extraction.<br>
- 
+  <div align=center><img src="https://github.com/shhdl/F3RBM-SVM/blob/master/Reconstruction%20error.png"/></div><br>
+
 How to test the classification effect
 ----
 The training samples and test samples are data sets after F3RBM feature extraction. That is to say, the sample data after feature extraction can be obtained by the optimized parameters and the corresponding conditional probability function.<br>
@@ -47,6 +48,6 @@ How to improve the classification accuracy of F3RBM-SVM
 
 How to improve the learning speed
 ---
-* Increase the learning rate appropriately, Increase learning rate appropriately, but it is easy to cause non-convergence.<br>
+* Increase the learning rate appropriately,  but it is easy to cause non-convergence.<br>
 * When the sample size of the original data is large and the sample size is large, the learning speed can be improved by appropriately reducing the threshold of eliminating redundancy.<br>
 
