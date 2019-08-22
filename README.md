@@ -9,7 +9,7 @@ F3RBM-SVM is used to realize feature extraction and recognition of images.
 * [SVM.m](https://github.com/shhdl/F3RBM-SVM/edit/master/SVM.m) is support vector machine to realize multifunctional classification.<br>
 * [libsvm-3.22.rar](https://github.com/shhdl/F3RBM-SVM/edit/master/libsvm-3.22.rar) is an effective software package for SVM pattern recognition and regression to solve multi-class pattern recognition problems. <br>
 * [mnistdisp.m](https://github.com/shhdl/F3RBM-SVM/blob/master/mnistdisp.m) is used for image reconstruction after feature extraction to verify the effect of feature extraction.<br>
-* [MNIST_Handwritten_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat)is MNIST handwritten database including 60000 training samples and 10000 test samples.<br>
+* [MNIST_Handwritten_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat) is MNIST handwritten database including 60000 training samples and 10000 test samples.<br>
 * [Fashion_MNIST_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat) is Fashion MNIST database including 60000 training samples and 10000 test samples.<br>
 * [Olivetti_Faces_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat) is Olivetti Faces Data Set, which contains image data without noises and with four different noises. Each type of images contains 240 training samples and 160 test samples.<br>
 
@@ -30,6 +30,7 @@ Taking MNIST_Handwritten_data.mat data set as an example, run F3RBM-SVM.m to get
 <div align=center><img src="https://github.com/shhdl/F3RBM-SVM/blob/master/Comparison%20of%20original%20and%20reconstructed%20images.png"/></div><br>
 The classification accuracy is 98.30%±0.05%.<br>
 <div align=center><img width="281" height="129" src="https://github.com/shhdl/F3RBM-SVM/blob/master/View%20of%20classification%20accuracy.png"/></div><br>
+
 How to verify the effectiveness of feature extraction
 ----
   Reconstruction errors are used to reflect the effectiveness of feature extraction. During the training iteration, reconstruction errors in each iteration are displayed in the workspace. It can not only reflect the convergence performance of training, but also verify the effectiveness of feature extraction.<br>
