@@ -1,25 +1,31 @@
 About
 ==
- F3RBM-SVM is used to realize feature extraction and recognition of images. Relevant programs and data sets are provided:
+F3RBM-SVM is used to realize feature extraction and recognition of images. 
+ ----
+ Relevant programs and data sets are provided:
 ------- 
-1.“F3RBM-SVM.m”is combination of Fuzzy Removing Redundancy Restricted Boltzmann Machine and Support Vector Machine.<br>
-2. “RBM-SVM.m”is combination of Restricted Boltzmann Machine and Support Vector Machine.<br>
-3. “SVM.m”is support vector machine (SVM) to realize multifunctional classification.<br>
-4. “libsvm-3.22.rar” is an effective software package for SVM pattern recognition and regression to solve multi-class pattern recognition problems. <br>
-5. “Mnistdisp.m” is used for image reconstruction after feature extraction to verify the effect of feature extraction.<br>
-6. “MNIST_Handwritten_data.mat”is MNIST handwritten database including 60000 training samples and 10000 test samples.<br>
-7. “Fashion_MNIST_data.mat”is Fashion MNIST database including 60000 training samples and 10000 test samples.<br>
-8. “Olivetti_Faces_data.mat”is Olivetti Faces Data Set, which contains image data without noises and with four different noises. Each type of images contains 240 training samples and 160 test samples.<br>
-  Preparation before running 
-  1. Download and install LIBSVM software package (libsvm-3.22.rar) 
-  2. Download and properly divide the data set into small sample sets of average batches. The MNIST_Handwritten_data.mat, Fashion_MNIST_data.mat and Olivetti_Faces_data.mat have been divided into several small sample sets.
+* [F3RBM-SVM.m](https://github.com/shhdl/F3RBM-SVM/edit/master/F3RBM-SVM.m) is combination of Fuzzy Removing Redundancy Restricted Boltzmann Machine and Support Vector Machine.<br>
+* [RBM-SVM.m](https://github.com/shhdl/F3RBM-SVM/edit/master/RBM-SVM.m) is combination of Restricted Boltzmann Machine and Support Vector Machine.<br>
+* [SVM.m](https://github.com/shhdl/F3RBM-SVM/edit/master/SVM.m) is support vector machine (SVM) to realize multifunctional classification.<br>
+* [libsvm-3.22.rar](https://github.com/shhdl/F3RBM-SVM/edit/master/libsvm-3.22.rar) is an effective software package for SVM pattern recognition and regression to solve multi-class pattern recognition problems. <br>
+* [Mnistdisp.m](https://github.com/shhdl/F3RBM-SVM/edit/master/Mnistdisp.m） is used for image reconstruction after feature extraction to verify the effect of feature extraction.<br>
+* [MNIST_Handwritten_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat)is MNIST handwritten database including 60000 training samples and 10000 test samples.<br>
+* [Fashion_MNIST_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat) is Fashion MNIST database including 60000 training samples and 10000 test samples.<br>
+* [Olivetti_Faces_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat) is Olivetti Faces Data Set, which contains image data without noises and with four different noises. Each type of images contains 240 training samples and 160 test samples.<br>
+
+Preparation before running
+----
+ * Download and install LIBSVM software package ([libsvm-3.22.rar](https://github.com/shhdl/F3RBM-SVM/edit/master/libsvm-3.22.rar)) 
+ * Download and properly divide the data set into small sample sets of average batches. The [MNIST_Handwritten_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat), [Fashion_MNIST_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat) and [Olivetti_Faces_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat) have been divided into several small sample sets.<br>
+
 Image reconstruction and classification 
-  F3RBM-SVM.m can realize the process of image feature extraction and classification, and the specific steps are as follows:
-  1. Parameter initialization
-  2. positive phase
-  3. negtive phase
-  4. Parameter optimization
-  5. SVM classification
+----
+ [F3RBM-SVM.m](https://github.com/shhdl/F3RBM-SVM/edit/master/F3RBM-SVM.m) can realize the process of image feature extraction and classification, and the specific steps are as follows:
+   `Parameter initialization`<br>
+   `positive phase`<br>
+   `negtive phase`<br>
+   `Parameter optimization`<br>
+   `SVM classification`<br>
 Taking MNIST_Handwritten_data.mat data set as an example, run F3RBM-SVM.m to get the comparison between the original image and the reconstructed image (odd behavior original image, even behavior reconstructed image) as follows:
  
 The classification accuracy is 98.30%±0.05%.
