@@ -26,20 +26,24 @@ Image reconstruction and classification
    `negtive phase`<br>
    `Parameter optimization`<br>
    `SVM classification`<br>
-Taking MNIST_Handwritten_data.mat data set as an example, run F3RBM-SVM.m to get the comparison between the original image and the reconstructed image (odd behavior original image, even behavior reconstructed image) as follows:
- 
-The classification accuracy is 98.30%±0.05%.
+Taking MNIST_Handwritten_data.mat data set as an example, run F3RBM-SVM.m to get the comparison between the original image and the reconstructed image (odd behavior original image, even behavior reconstructed image) as follows:<br>
+
+The classification accuracy is 98.30%±0.05%.<br>
  
 How to verify the effectiveness of feature extraction
-  Reconstruction errors are used to reflect the effectiveness of feature extraction. During the training iteration, reconstruction errors in each iteration are displayed in the workspace. It can not only reflect the convergence performance of training, but also verify the effectiveness of feature extraction.
+----
+  Reconstruction errors are used to reflect the effectiveness of feature extraction. During the training iteration, reconstruction errors in each iteration are displayed in the workspace. It can not only reflect the convergence performance of training, but also verify the effectiveness of feature extraction.<br>
  
-How to test the classification effect 
-  The training samples and test samples are data sets after F3RBM feature extraction. That is to say, the sample data after feature extraction can be obtained by the optimized parameters and the corresponding conditional probability function.
+How to test the classification effect
+----
+The training samples and test samples are data sets after F3RBM feature extraction. That is to say, the sample data after feature extraction can be obtained by the optimized parameters and the corresponding conditional probability function.<br>
 How to improve the classification accuracy of F3RBM-SVM 
-  1. Set more iterations until the reconstruction error converges. 
-  2. Set more hidden units until the number of hidden units approaches the number of visible units.
-  3. When the number of original data samples is relatively small and the dimension of samples is relatively low, improving the threshold of removing redundancy can improve the accuracy of classification.
+-----
+* Set more iterations until the reconstruction error converges.<br> 
+* Set more hidden units until the number of hidden units approaches the number of visible units.<br>
+* When the number of original data samples is relatively small and the dimension of samples is relatively low, improving the threshold of removing redundancy can improve the accuracy of classification.<br>
 How to improve the learning speed
-  1. Increase the learning rate appropriately, Increase learning rate appropriately, but it is easy to cause non-convergence.
-  2. When the sample size of the original data is large and the sample size is large, the learning speed can be improved by appropriately reducing the threshold of eliminating redundancy.
+---
+* Increase the learning rate appropriately, Increase learning rate appropriately, but it is easy to cause non-convergence.<br>
+* When the sample size of the original data is large and the sample size is large, the learning speed can be improved by appropriately reducing the threshold of eliminating redundancy.<br>
 
