@@ -5,7 +5,6 @@ F3RBM-SVM is used to realize feature extraction and recognition of images.
  Relevant programs and data sets are provided:
 ------- 
 * [F3RBM-SVM.m](https://github.com/shhdl/F3RBM-SVM/edit/master/F3RBM-SVM.m) is a main program that combines F3RBM and SVM to implement the function of feature extraction and classification of images.<br>
-* [RBM-SVM.m](https://github.com/shhdl/F3RBM-SVM/edit/master/RBM-SVM.m) is a code that combines RBM and SVM to implement the function of feature extraction and classification of images.<br>
 * [libsvm-3.22.rar](https://github.com/shhdl/F3RBM-SVM/edit/master/libsvm-3.22.rar) is an effective software package for SVM pattern recognition and regression to solve multi-class pattern recognition problems. <br>
 * [mnistdisp.m](https://github.com/shhdl/F3RBM-SVM/blob/master/mnistdisp.m) is used for image reconstruction after feature extraction to verify the effect of feature extraction.<br>
 * [MNIST_Handwritten_data.mat](https://github.com/shhdl/F3RBM-SVM/edit/master/MNIST_Handwritten_data.mat) is MNIST handwritten database including 60000 training samples and 10000 test samples.<br>
